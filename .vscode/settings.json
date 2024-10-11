@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "NarrativeLab1.sln"
+    "dotnet.defaultSolution": "RenderRebelsGAME1002.sln"
 }
