@@ -4538,6 +4538,7 @@ GameObject:
   - component: {fileID: 1147826787}
   - component: {fileID: 1147826788}
   - component: {fileID: 1147826789}
+  - component: {fileID: 1147826790}
   m_Layer: 0
   m_Name: Mud
   m_TagString: Untagged
@@ -4553,13 +4554,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147826786}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.75, y: -6.7, z: -9.89978}
-  m_LocalScale: {x: 3.2134075, y: 2.5718462, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.00717259, w: 0.9999743}
+  m_LocalPosition: {x: -2.6716, y: -6.299999, z: -9.89978}
+  m_LocalScale: {x: 3.3702219, y: 1.8376915, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2077019255}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.822}
 --- !u!212 &1147826788
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4657,6 +4658,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!50 &1147826790
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147826786}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1168217520
 GameObject:
   m_ObjectHideFlags: 0
