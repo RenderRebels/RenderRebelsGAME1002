@@ -3481,7 +3481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3940033440555568239, guid: 5e2f11e79e9269a4db819c084f2090b4, type: 3}
       propertyPath: m_text
-      value: Pig
+      value: Mort
       objectReference: {fileID: 0}
     - target: {fileID: 3940033440555568239, guid: 5e2f11e79e9269a4db819c084f2090b4, type: 3}
       propertyPath: m_margin.w
@@ -3505,11 +3505,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5080217213562926335, guid: 5e2f11e79e9269a4db819c084f2090b4, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26.32
+      value: -19.01
       objectReference: {fileID: 0}
     - target: {fileID: 5080217213562926335, guid: 5e2f11e79e9269a4db819c084f2090b4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -43.71
+      value: -37.22
       objectReference: {fileID: 0}
     - target: {fileID: 9107037369210471331, guid: 5e2f11e79e9269a4db819c084f2090b4, type: 3}
       propertyPath: m_Name
