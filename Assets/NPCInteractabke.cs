@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class NPCInteractabke : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject Intertact;
     void Start()
     {
-        
+        Intertact.SetActive(false);
     }
-
-    // Update is called once per frame
-    void Update()
+   
+    private void OnTriggerEnter(Collider other)
     {
-        
+       PlayerTrigger playerTrigger = other.GetComponent<PlayerTrigger>();
+        if (playerTrigger != null)
+        {
+            Intertact.SetActive(true);
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        PlayerTrigger playerTrigger = other.GetComponent<PlayerTrigger>();
+        if (playerTrigger != null)
+        {
+            Intertact.SetActive(false);
+        }
     }
 }
