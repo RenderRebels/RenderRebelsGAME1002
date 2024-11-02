@@ -1,9 +1,15 @@
 ﻿title: NPC_Dialogue_Pig
 tags:
+position: -94,-102
 ---
-Player: Hi, Mr. Pig!
 
-Pig: Oh, Hello, what brings you by these parts?
+Player: Hey, Mr. Pig!
+    -> Enjoying the mud?
+        Pig: Oh, hello there, why yes, yes I am
+    -> I need your help!
+        Pig: Help? oh of course
+Pig: What brings you to these parts my friend?
+
     
     
 ===
