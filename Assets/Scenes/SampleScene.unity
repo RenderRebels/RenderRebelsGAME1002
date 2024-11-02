@@ -2419,19 +2419,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5234715314992310802, guid: 37410bcb40581e64d8e9587b493631f1, type: 3}
       propertyPath: m_Size.x
-      value: 0.20996815
+      value: 0.16638125
       objectReference: {fileID: 0}
     - target: {fileID: 5234715314992310802, guid: 37410bcb40581e64d8e9587b493631f1, type: 3}
       propertyPath: m_Size.y
-      value: 0.208519
+      value: 0.16523303
       objectReference: {fileID: 0}
     - target: {fileID: 5234715314992310802, guid: 37410bcb40581e64d8e9587b493631f1, type: 3}
       propertyPath: m_Offset.x
-      value: -0.012505169
+      value: -0.00018713265
       objectReference: {fileID: 0}
     - target: {fileID: 5234715314992310802, guid: 37410bcb40581e64d8e9587b493631f1, type: 3}
       propertyPath: m_Offset.y
-      value: -0.0012270845
+      value: -0.011578004
       objectReference: {fileID: 0}
     - target: {fileID: 5912035672851210959, guid: 37410bcb40581e64d8e9587b493631f1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2871,6 +2871,10 @@ PrefabInstance:
     - target: {fileID: 4696829097362940923, guid: 72f39bfd92c7ab9489eb35938b6ed9d9, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6779962888553886417, guid: 72f39bfd92c7ab9489eb35938b6ed9d9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6871272057502821964, guid: 72f39bfd92c7ab9489eb35938b6ed9d9, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
