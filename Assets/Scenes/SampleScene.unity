@@ -2286,6 +2286,14 @@ PrefabInstance:
       propertyPath: title
       value: title ??
       objectReference: {fileID: 0}
+    - target: {fileID: 2449113641840392606, guid: 576405689e8b5e047b9b65e9cd988a27, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449113641840392606, guid: 576405689e8b5e047b9b65e9cd988a27, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4152489775258313403, guid: 576405689e8b5e047b9b65e9cd988a27, type: 3}
       propertyPath: m_Size.x
       value: 18.69448
@@ -2332,6 +2340,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5320726287362640074, guid: 576405689e8b5e047b9b65e9cd988a27, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7786685436520270250, guid: 576405689e8b5e047b9b65e9cd988a27, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7786685436520270250, guid: 576405689e8b5e047b9b65e9cd988a27, type: 3}
+      propertyPath: m_SortingLayerID
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8147960599961197795, guid: 576405689e8b5e047b9b65e9cd988a27, type: 3}
