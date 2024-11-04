@@ -1,6 +1,6 @@
 ﻿title: NPC_Dialogue_Pig
 tags:
-position: -94,-102
+position: -220,-160
 ---
 
 Player: Hey, Mr. Pig!
@@ -9,9 +9,48 @@ Player: Hey, Mr. Pig!
     -> I need your help!
         Pig: Help? oh of course
 Pig: What brings you to these parts my friend?
-    -> Player:The cats in Dusted Pyramids told you and your mud could help me, they said it can cure anything
-        Pig: oh they did did they, we'll their right
+    -> Player:The cats in Dusted Pyramids told you and your mud could help me, they said it can cure anything.
+        Pig: And they're right, best cure all this side of anywhere.
     -> Player: There's a plague in Aplin Town, it's turning evryone one into dinosaurs!
-        Pig: That's terrible! OH you should try some of my mud! it can remedee any ailment
-Pig: Go ahead help yourself  
+        Pig: That's terrible! OH! you should try some of my mud! it 
+Pig: Go ahead help yourself
+    -> Player: how does it work?
+     <<jump How_Mud_Works>>
+    -> Player: Thank you!
+    <<jump Mud_Doesnt_Work>>
+===
+title: How_Mud_Works
+position: -95,79
+---
+Pig: You dont know?
+
+Player: Do you?
+
+Pig: All I know is whenever I feel bad, a good mud bath always makes me feel better.
+
+Player: even when you're sick?
+
+Pig: when I'm sick, when I'm sad, whenever I dont feel in top form it always helps.
+    <<jump Mud_Doesnt_Work>>
+===
+title: Mud_Doesnt_Work
+position: -277,248
+---
+...
+
+PLayer: Hey, Mr Pig, this mud isnt doing the job.
+
+Pig: What? Why?
+
+Player: I dont know but it isnt.
+
+Pig: I don't understand it's always worked before.
+
+Player: do you know anywhere else I could go for help?
+
+Pig: No...Oh Wait yes, yes I do. Everforest, that's the only place that's made me feel as good as my mud. You should try there!
+
+Player: I will, thank you!...
+
+Pig: Good luck, and dont be a stranger...
 ===
