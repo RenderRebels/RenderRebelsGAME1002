@@ -1,0 +1,14 @@
+﻿title: Mort
+tags:
+---
+Mort:Things aren’t looking good right now
+->Player:What do you mean doc whats wrong?
+    Mort: I can feel the disease worsening, it feels like it’s affecting my head now.
+        ->Player (choice1): are you okay?
+             Mort: I think so but I’m starting to get really hungry…
+            ->Player:in a normal way?
+             Mort: No, I've got a craving for red meat right now.
+            ->Player:Don’t worry doc I’ll find something out.
+        ->Player: What can I do to help?
+        Mort: I don’t know, just keep seeing what you can find. I don't know how long I have left before losing my humanity.
+===
