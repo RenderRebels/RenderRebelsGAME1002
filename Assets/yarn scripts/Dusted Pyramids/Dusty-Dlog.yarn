@@ -1,0 +1,21 @@
+﻿title: Dusty-Dlog
+tags:
+---
+Dusty:Hello traveller what brings you to these parts?
+->I'm in need of a cure Alpin has been infected with a dinosaur sickness
+ <<jump sup>>
+->Nothing just travelling around
+ <<jump frwell>>
+===
+title: sup
+position: -134,192
+---
+Dusty:Oh! Talk to Buttarbee, he would be the one to know how to fix that
+
+Player:Ok thanks!
+===
+title: frwell
+position: 158,198
+---
+Dusty: Oh ok have fun hope you enjoy thhe pyramids.
+===

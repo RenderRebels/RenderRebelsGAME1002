@@ -1,0 +1,26 @@
+﻿title: Sandy-Dlog
+tags:
+---
+Sandy:Yooooo, what's up dude, what brings you to these parts? I haven't seen you before..
+->I'm in need of a cure Alpin has been infected with a dinosaur sickness
+ <<jump sup>>
+->I'm here to hangout and explore a bit
+ <<jump explore>>
+===
+title: sup
+position: -141,185
+---
+Sandy:Oh wait you need a cure to a dino illness?
+->Yeah would you know where I can find a cure for it?
+
+Sandy:Yeah dude, just ask Buttarbee, I'm sure he'd know.
+===
+title: explore
+position: 90,194
+---
+Sandy:Ohh cool dude, well I hope you enjoy our place it's been here for generations.
+
+Player:Oh I'm sure I will thanks.
+
+Sandy:No problem dude, have fun.
+===
