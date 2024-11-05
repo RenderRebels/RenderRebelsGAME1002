@@ -3,16 +3,15 @@ tags:
 ---
 Dusty:Hello traveller what brings you to these parts?
 ->I'm in need of a cure Alpin has been infected with a dinosaur sickness
- <<jump sup>>
+ <<jump sup1>>
 ->Nothing just travelling around
  <<jump frwell>>
 ===
-title: sup
+title: sup1
 position: -134,192
 ---
 Dusty:Oh! Talk to Buttarbee, he would be the one to know how to fix that
-
-Player:Ok thanks!
+->Player:Ok thanks!
 ===
 title: frwell
 position: 158,198

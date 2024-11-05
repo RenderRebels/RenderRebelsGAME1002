@@ -122,6 +122,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &69173951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1418976764847720447, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+  m_PrefabInstance: {fileID: 2105705944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &81209267 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 526848306572137008, guid: 50d0b22e407e56a4fa09d4cc9ea6bf55, type: 3}
@@ -751,6 +756,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3292657647476544605, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
+      propertyPath: startAutomatically
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4540255442126730747, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
@@ -1855,6 +1864,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458226355}
   m_CullTransparentMesh: 1
+--- !u!1 &1524035533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7683295909758782542, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+  m_PrefabInstance: {fileID: 2105705944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1572103164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2720,13 +2734,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7683295909758782542, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2105705948}
   m_SourcePrefab: {fileID: 100100000, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
 --- !u!4 &2105705945 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1069986987565348674, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
   m_PrefabInstance: {fileID: 2105705944}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2105705948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524035533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77f6e10603b02442b86448ca37f6021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runner: {fileID: 0}
+  speechPrompt: {fileID: 69173951}
+  startnode: 
 --- !u!1001 &229621865366039968
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,20 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class npcInteraction : MonoBehaviour
 {
+    public DialogueRunner runner;
     public GameObject speechPrompt;
+    public string startnode;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        speechPrompt.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -23,6 +20,7 @@ public class npcInteraction : MonoBehaviour
         if (player != null)
         {
             speechPrompt.SetActive(true);
+            runner.StartDialogue("Mort");
         }
     }
        private void OnTriggerExit2D(Collider2D collision)

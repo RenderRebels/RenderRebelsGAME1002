@@ -304,7 +304,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1069986987565348674}
   - component: {fileID: 7689435399754182117}
-  - component: {fileID: 3562279738136663684}
   m_Layer: 0
   m_Name: DialogueTrigger
   m_TagString: Untagged
@@ -373,16 +372,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.42990887, y: 0.48035944}
   m_EdgeRadius: 0
---- !u!114 &3562279738136663684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7683295909758782542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b77f6e10603b02442b86448ca37f6021, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speechPrompt: {fileID: 1418976764847720447}

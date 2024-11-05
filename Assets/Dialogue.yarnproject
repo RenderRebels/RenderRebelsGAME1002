@@ -1,0 +1,20 @@
+{
+  "projectFileVersion": 2,
+  "sourceFiles": [
+    "NPC_Dialogue_Pig.yarn",
+    "NPC_Knight_Dialogue.yarn",
+    "goggins.yarn",
+    "Mort.yarn",
+    "Vita.yarn",
+    "Tart.yarn",
+    "Buttar_Bee_Dialogue.yarn",
+    "Sandy-Dlog.yarn",
+    "Dusty-Dlog.yarn"
+  ],
+  "excludeFiles": [
+    "**/*~/*"
+  ],
+  "localisation": {},
+  "baseLanguage": "en",
+  "compilerOptions": {}
+}
