@@ -1,0 +1,41 @@
+title: NPC_Knight_Dialogue
+tags:
+---
+Player: Hey, Sir Knight!
+    -> Why are you here?
+        Knight: I am here to investegate a rumer of a ghost sighting
+    -> Is Knight your real name or a title?
+        Knight: Why do you need to know this?
+  Knight: Are you in need of my assestence?
+    -> Player:Do you have any info about the plague?
+        Knight: I do but unfortunatly I need something in retern.
+    -> Player: If your actual name is knight did your parents name you that in anticapation?
+        Knight: Sigh...tell you what if you help me I will anwser your questions.  
+         Knight: So do we have a deal?
+    -> Player: Deal!
+     <<jump The_Mission>>
+    -> Player: What do you need?
+     <<jump About_the_deal>>
+===
+title: About_the_deal
+---
+Player: Why?
+
+Pig: This is the grave of an old friend and until it is fixed he won't be able to rest
+
+Player: I guess I have no choice.
+    <<jump The_Mission>>
+===
+title: The_Mission
+---
+Knight: You need to find the missing piece of the grave
+
+Player: Why don't you get it?
+
+Knight: Your dino hands can handle the power mine would be destroyed.
+
+Knight:I got it.
+
+Knight: Wonderful as promised I will tell you what you want. There is a healing pool deep in the forest.I wish you luck friend.
+
+===
