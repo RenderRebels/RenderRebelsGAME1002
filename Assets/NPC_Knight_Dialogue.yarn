@@ -6,4 +6,9 @@ Player: Hey, Sir Knight!
         Knight: I am here to investegate a rumer of a ghost sighting
     -> Is Knight your real name or a title?
         Knight: Why do you need to know this?
+  Knight: Are you in need of my assestence?
+    -> Player:Do you have any info about the plague?
+        Knight: I do but unfortunatly I need something in retern.
+    -> Player: If your actual name is knight did your parents name you that in anticapation?
+        Knight: Sigh...tell you what if you help me I will anwser your questions.       
 ===
