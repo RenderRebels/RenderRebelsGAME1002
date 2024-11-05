@@ -176,6 +176,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: startNode
+      value: Vita
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: speechPrompt
       value: 
       objectReference: {fileID: 1959715053}
@@ -645,6 +649,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: startNode
+      value: Dusty-Dlog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: speechPrompt
       value: 
       objectReference: {fileID: 1846174147}
@@ -843,6 +851,10 @@ PrefabInstance:
     - target: {fileID: 1069986987565348674, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: startNode
+      value: Chonkee
       objectReference: {fileID: 0}
     - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: speechPrompt
@@ -1554,6 +1566,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: startNode
+      value: Buttar_Bee_Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: speechPrompt
       value: 
       objectReference: {fileID: 473977364}
@@ -1996,12 +2012,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: startNode
+      value: NPC_Knight_Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: speechPrompt
       value: 
       objectReference: {fileID: 2112374466}
     - target: {fileID: 7683295909758782542, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Size.x
+      value: 0.71167344
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Size.y
+      value: 0.81813824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.047819883
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.10800247
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2201,6 +2237,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: startNode
+      value: goggins
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: speechPrompt
       value: 
       objectReference: {fileID: 1905747023}
@@ -2394,6 +2434,10 @@ PrefabInstance:
     - target: {fileID: 1069986987565348674, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: startNode
+      value: NPC_Dialogue_Pig
       objectReference: {fileID: 0}
     - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: speechPrompt
@@ -3053,6 +3097,10 @@ PrefabInstance:
     - target: {fileID: 1069986987565348674, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: startNode
+      value: Sandy-Dlog
       objectReference: {fileID: 0}
     - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: speechPrompt
