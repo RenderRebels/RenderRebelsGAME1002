@@ -1,5 +1,9 @@
 ﻿title: NPC_Knight_Dialogue
 tags:
 ---
-
+Player: Hey, Sir Knight!
+    -> Why are you here?
+        Knight: I am here to investegate a rumer of a ghost sighting
+    -> Is Knight your real name or a title?
+        Knight: Why do you need to know this?
 ===
