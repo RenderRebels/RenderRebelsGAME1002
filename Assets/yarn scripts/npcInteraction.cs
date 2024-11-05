@@ -3,34 +3,50 @@ using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
 
-public class npcInteraction : MonoBehaviour
+public class NPCInteraction : MonoBehaviour
 {
-    public DialogueRunner runner;
+     public DialogueRunner runner;
     public GameObject speechPrompt;
-    public string startnode;
-    // Start is called before the first frame update
+    public string startNode;
+    public bool canStartConversation;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        runner = FindAnyObjectByType<DialogueRunner>();
         speechPrompt.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space))
+        {
+            if (!runner.IsDialogueRunning && canStartConversation)
+            {
+                runner.StartDialogue(startNode);
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerTrigger player = collision.GetComponent<PlayerTrigger>();
-        if (player != null)
+        if (player != null) // it is a player
         {
-            speechPrompt.SetActive(true);
-            runner.StartDialogue("Mort");
+            canStartConversation = true;
+            speechPrompt.SetActive(canStartConversation);
         }
     }
-       private void OnTriggerExit2D(Collider2D collision)
+
+    private void OnTriggerExit2D(Collider2D collision)
     {
         PlayerTrigger player = collision.GetComponent<PlayerTrigger>();
-        if (player != null)
+        if (player != null) // it is a player
         {
-            speechPrompt.SetActive(false);
+            canStartConversation = false;
+            speechPrompt.SetActive(canStartConversation);
+
+            runner.Stop();
         }
     }
 }
-
-
