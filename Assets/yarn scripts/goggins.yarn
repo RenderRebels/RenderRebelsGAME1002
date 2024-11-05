@@ -3,10 +3,10 @@ tags:
 ---
 Goggins: Am I gonna get sick too? I don’t want to.
 ->Player: No Goggins you’re alright we’re working on a fix for this
-Goggins: How are you managing that our town's doctor is a dinosaur is he still capable enough to do that?
-->Player:Goggins Calm down Dr.Mort is still Dr.Mort he’s only physically a dinosaur we’re working on it but we can’t have you panicking.
-Goggins:Are you sure everythings gonna be ok?
-->Player:Yes I promise
-->Player:I'm not sure but I'll figure something out that I'm sure of
-Goggins:Okay yea I trust you please just try your best
+    Goggins: How are you managing that our town's doctor is a dinosaur is he still capable enough to do that?
+    ->Player:Goggins Calm down Dr.Mort is still Dr.Mort he’s only physically a dinosaur we’re working on it but we can’t have you panicking.
+        Goggins:Are you sure everythings gonna be ok?
+        ->Player:Yes I promise
+        ->Player:I'm not sure but I'll figure something out that I'm sure of
+            Goggins:Okay yea I trust you please just try your best
 ===
