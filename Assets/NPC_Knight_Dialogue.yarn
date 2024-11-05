@@ -11,11 +11,11 @@ Player: Hey, Sir Knight!
         Knight: I do but unfortunatly I need something in retern.
     -> Player: If your actual name is knight did your parents name you that in anticapation?
         Knight: Sigh...tell you what if you help me I will anwser your questions.  
-         Knight: So do we have a deal?
-    -> Player: Deal!
-     <<jump The_Mission>>
-    -> Player: What do you need?
-     <<jump About_the_deal>>
+    Knight: So do we have a deal?
+        -> Player: Deal!
+         <<jump The_Mission>>
+        -> Player: What do you need?
+         <<jump About_the_deal>>
 ===
 title: About_the_deal
 ---
