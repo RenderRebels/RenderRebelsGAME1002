@@ -2736,7 +2736,7 @@ GameObject:
   - component: {fileID: 4632957184796373766}
   - component: {fileID: 66540737479877069}
   - component: {fileID: 2329460342733441369}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AplinTown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
