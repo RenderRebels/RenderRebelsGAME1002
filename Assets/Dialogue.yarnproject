@@ -9,7 +9,8 @@
     "Tart.yarn",
     "Buttar_Bee_Dialogue.yarn",
     "Sandy-Dlog.yarn",
-    "Dusty-Dlog.yarn"
+    "Dusty-Dlog.yarn",
+    "**/*.yarn"
   ],
   "excludeFiles": [
     "**/*~/*"

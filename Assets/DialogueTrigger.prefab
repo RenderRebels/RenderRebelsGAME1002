@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4356171826440850084}
   - component: {fileID: 1008020441276582193}
   - component: {fileID: 3244769248187064784}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: SpeechBubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 6822849545025323621}
   - component: {fileID: 6547584747362907748}
   - component: {fileID: 4095160969879059169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 9067200526810280169}
   - component: {fileID: 4321210858300327571}
   - component: {fileID: 6114287192576866308}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 1069986987565348674}
   - component: {fileID: 7689435399754182117}
   - component: {fileID: 1173086490288255485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DialogueTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
