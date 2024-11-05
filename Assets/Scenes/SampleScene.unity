@@ -2616,6 +2616,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4081514465318093369, guid: 5ff7aba726982cc48bbfceb2e89b5a2b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081514465318093369, guid: 5ff7aba726982cc48bbfceb2e89b5a2b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1038777897
+      objectReference: {fileID: 0}
+    - target: {fileID: 4465162291231461600, guid: 5ff7aba726982cc48bbfceb2e89b5a2b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4465162291231461600, guid: 5ff7aba726982cc48bbfceb2e89b5a2b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8915726335295474440, guid: 5ff7aba726982cc48bbfceb2e89b5a2b, type: 3}
       propertyPath: m_Name
       value: Everforest (Ben)
