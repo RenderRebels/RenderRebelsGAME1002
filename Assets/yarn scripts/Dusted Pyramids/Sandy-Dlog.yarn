@@ -1,6 +1,7 @@
 ﻿title: Sandy-Dlog
 tags:
 ---
+Narrator:By Devon Guillemette
 Sandy:Yooooo, what's up dude, what brings you to these parts? I haven't seen you before..
 ->I'm in need of a cure Alpin has been infected with a dinosaur sickness
     <<jump sup>>

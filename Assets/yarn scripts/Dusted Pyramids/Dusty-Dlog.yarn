@@ -1,6 +1,7 @@
 ﻿title: Dusty-Dlog
 tags:
 ---
+Narrarator:By Devon Guillemette
 Dusty:Hello traveller what brings you to these parts?
 ->I'm in need of a cure Alpin has been infected with a dinosaur sickness
  <<jump sup1>>

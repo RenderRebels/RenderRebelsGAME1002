@@ -1,6 +1,7 @@
 title: NPC_Knight_Dialogue
 tags:
 ---
+Narrator:By Gage Breedon
 Player: Hey, Sir Knight!
     -> Why are you here?
         Knight: I am here to investegate a rumer of a ghost sighting
