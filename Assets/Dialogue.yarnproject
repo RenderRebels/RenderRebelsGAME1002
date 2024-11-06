@@ -11,6 +11,7 @@
     "Sandy-Dlog.yarn",
     "Dusty-Dlog.yarn",
     "Chonkee.yarn",
+    "Peng_Script.yarn",
     "**/*.yarn"
   ],
   "excludeFiles": [

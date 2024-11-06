@@ -4,15 +4,15 @@ tags:
 Player: Hi, Peng!
     -> How do I get to Shadowland?
         Peng: Why are you a dinosaur!? You do not have to answer of course, I mean I am literally a penguin that speaks perfect english so I can’t really be surprised anymore.
-    -> How are you?
-        Peng: I am tripping balls right now. What do you need, my lover?
-        Peng: Do you want a hit?
-    -> Player: Yes, I love it when strangers give me unknown substances!
-        Peng: Odd thing to say but okay. 
-    -> Player: Wow! I already feel it! Why is my nose moving uncontrollably?
-        Peng:: Focus, my beautiful baby. You want to know how to get to Shadowland I presume?
-    -> Player: Yes please!
-        Peng: Follow the path to the graveyard, do not die hehe.
-    -> Player: Uh ok, thank you Peng!
+            -> How are you?
+                 Peng: I am tripping balls right now. What do you need, my lover?
+                 Peng: Do you want a hit?
+                 -> Player: Yes, I love it when strangers give me unknown substances!
+                     Peng: Odd thing to say but okay. 
+                    -> Player: Wow! I already feel it! Why is my nose moving uncontrollably?
+                        Peng:: Focus, my beautiful baby. You want to know how to get to Shadowland I presume?
+                        -> Player: Yes please!
+                             Peng: Follow the path to the graveyard, do not die hehe.
+                            -> Player: Uh ok, thank you Peng!
 
 ===
