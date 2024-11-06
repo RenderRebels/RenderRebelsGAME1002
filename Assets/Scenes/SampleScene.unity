@@ -726,9 +726,41 @@ PrefabInstance:
       propertyPath: speechPrompt
       value: 
       objectReference: {fileID: 999742984}
+    - target: {fileID: 4356171826440850084, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356171826440850084, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356171826440850084, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -553.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356171826440850084, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -256.45
+      objectReference: {fileID: 0}
     - target: {fileID: 7683295909758782542, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Size.x
+      value: 1.4777145
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3934476
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.2869835
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.19046319
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1279,6 +1311,11 @@ MonoBehaviour:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1418976764847720447, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
   m_PrefabInstance: {fileID: 1985940008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &531859597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5918508859934674461, guid: 0a331f7c66ce5ac42a54a75bb17e89d0, type: 3}
+  m_PrefabInstance: {fileID: 3231148506991856494}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &547247369 stripped
 GameObject:
@@ -1983,6 +2020,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4886138138352613304, guid: 0a331f7c66ce5ac42a54a75bb17e89d0, type: 3}
   m_PrefabInstance: {fileID: 3231148506991856494}
   m_PrefabAsset: {fileID: 0}
+--- !u!70 &1059882682
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531859597}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.017463684, y: -0.00000023841855}
+  m_Size: {x: 0.8359299, y: 1.2800001}
+  m_Direction: 0
 --- !u!1 &1201886631 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2537470257460237433, guid: 576405689e8b5e047b9b65e9cd988a27, type: 3}
@@ -2094,6 +2166,14 @@ PrefabInstance:
       propertyPath: speechPrompt
       value: 
       objectReference: {fileID: 2112374466}
+    - target: {fileID: 4356171826440850084, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -557.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356171826440850084, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -258.70016
+      objectReference: {fileID: 0}
     - target: {fileID: 7683295909758782542, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger
@@ -3582,7 +3662,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4886138138352613304, guid: 0a331f7c66ce5ac42a54a75bb17e89d0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1967442193}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5918508859934674461, guid: 0a331f7c66ce5ac42a54a75bb17e89d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1059882682}
   m_SourcePrefab: {fileID: 100100000, guid: 0a331f7c66ce5ac42a54a75bb17e89d0, type: 3}
 --- !u!1001 &3564894764866617929
 PrefabInstance:
