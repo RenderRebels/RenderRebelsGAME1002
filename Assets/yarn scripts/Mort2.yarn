@@ -1,0 +1,13 @@
+﻿title: Mort2
+tags:
+---
+->Player: Hey Mort how are things going
+    Mort:Oh you know could be better
+        ->Player:Oh why’s that
+            Mort:I’ve been trying to make this healing salve but I don’t have enough sap for it
+            ->Player:Where’s the sap come from? Can’t you just get more?
+                Mort:Normally I get it from Tart but I haven’t seen him in a long time. I think he’s gone to his cabin
+                ->Player:If you’d like i can go talk to Tart see if he has any
+                    Mort:Oh please would you that would be great
+
+===

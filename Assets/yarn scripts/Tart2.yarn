@@ -1,0 +1,55 @@
+﻿title: Tart2
+tags:
+---
+Tart:Oh who’s out there
+->Player:Just me Tart you have a minute?
+    Tart:Oh yea I do, how's it going friend?
+    ->Player:It’s Good what about you
+        <<jump good>>
+    ->Player:Not so good Doc needs help
+        <<jump nogood>>
+//(Both paths lead here)
+===
+title: good
+tags:
+---
+Tart:I’ve been well, I’m enjoying a nice relaxing day by the lake today.
+->Player:Glad to hear it Tart, curious Doc said he needed some kind of sap for a salve. Do you know what he’s talking about?
+    <<jump Next>>
+===
+title: nogood
+tags:
+---
+Tart:Oh with what?
+->Player:He’s looking for a sap he needs for a salve he said you would have some.
+    <<jump Next>>
+===
+
+title:Next
+tags:
+---
+//both paths go here
+Tart:Oh yea I do, I don’t have any right now though but if you can go get it I can tell you where to get it.
+->Player:Oh I’d appreciate it
+    Tart: There’s two spots you could get it in the everforest or Shadow’s edge.
+    ->Player:Everforest that’s not too bad
+        <<jump everforesttart>>
+    ->Player:Shadow’s Edge sounds fun
+        <<jump shadowsedgetart>>
+===
+title:everforesttart
+tags:
+---
+Tart: Yea the Everforest is just North of here talk to Sir Gwynn, can’t miss him
+->Player:Sir Gwynn?
+    Tart:Yea he thinks he’s a knight just play along and he’ll give you some also he’ll likely try to fight you. Just tell him you will next time.
+    ->Player:But then won’t I need to fight him next time?
+        Tart:No he’s not that smart he’ll forget by then
+        ->Player:Ok if you say so
+===
+title:shadowsedgetart
+tags:
+---
+Tart:No it isn’t that bad it’s just south-west of here when you get there you should meet with Kai he’s always had some when I needed it.
+->Player:Thanks Tart I appreciate it
+===

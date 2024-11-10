@@ -846,7 +846,6 @@ GameObject:
   m_Component:
   - component: {fileID: 867750830939290820}
   - component: {fileID: 471085782054257774}
-  - component: {fileID: 50310879735543860}
   - component: {fileID: 5308472805872955659}
   - component: {fileID: 8259380490963444057}
   m_Layer: 1
@@ -923,20 +922,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &50310879735543860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4118575920774242061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6cec9fc7013bd84491127845682e8a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  title: Dusted Pyramids
-  author: 'by: ???'
 --- !u!61 &5308472805872955659
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -12,6 +12,8 @@
     "Dusty-Dlog.yarn",
     "Chonkee.yarn",
     "Peng_Script.yarn",
+    "Mort2.yarn",
+    "Tart2.yarn",
     "**/*.yarn"
   ],
   "excludeFiles": [
