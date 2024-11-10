@@ -2,19 +2,18 @@
 tags:
 ---
 Narrarator:By Ben Richard
-Chonkee: Grrph.. what are you doing here?!
-    -> I'm here because I need the water fron the water spring.
-    Chonkee: And what good reason reason would you need that for??
-        -> It's to help cure everyone.
-        -> Just.. PLEASE let me have some of the springwater
-            Chonkee: Huff..
-                -> if you do, a lot of the town folk will see you as a better person. Don't you want that?
-                -> Maybe make some friends?
-                    Chonkee: Hm.. Alroight.
-                        -> Really?!
-                            Chonkee: Don't get too happy now. Take as much as you need to make the cure, as long as its not all of it!
-                                -> Thank you so much sir. This really means a lot!
-                                    Chonkee: Hppmf..
-
+Chonkee: Grumble.. grumble.. 
+     -> Is there somthing wrong?
+     Chonkee: I was going to make a nice salad!! But..
+     Chonkee: I don't have the goddamn enegry to move and get them.. grr. 
+     Chonkee: I was going to get some tatsy mud, the greenest of grasses and some delish sticks..
+        -> Oh.. Well I could help you.
+        Chonkee: NO!! I don't wanna pay you a damn cent!
+            -> You.. don't have to pay me sir, I'll do it for free.
+                Chonkee: Hmpff.. WELL! If you inists. No taksies backsises though!! You hear me!..
+                    -> Yessir...
+                        Chonkee: Here's the bowl..
+                        Narrarator: You gained the bowl!
+    
         
 ===
