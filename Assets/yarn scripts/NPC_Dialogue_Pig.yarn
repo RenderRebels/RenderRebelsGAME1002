@@ -2,14 +2,15 @@
 tags:
 position: -230,-308
 ---
+<<declare $opinionPig = 0>>
+
 Narrarator:By Damien Buckley
 
-<<declare $opinionPig = 0>>
 Player: Hey, Mr. Pig!
-    -> Enjoying the mud?
-        Pig: Oh, hello there, why yes, yes I am
-    -> I need your help!
-        Pig: Help? oh of course
+     -> Enjoying the mud?
+     Pig: Oh, hello there, why yes, yes I am
+     -> I need your help!
+     Pig: Help? oh of course
 Pig: What brings you to these parts my friend?
     -> Player: The cats in Dusted Pyramids told me you hjad mud that could help me, they said it can cure anything.
         Pig: I Do have such mud, but i don't give it away for free, you must prove yourself worthy first
@@ -23,24 +24,28 @@ Pig: What brings you to these parts my friend?
         Pig: The Shimmy Mud! If you do this, you will prove yourself worth to recieve the curing mud. So will you do the dance
          -> Player: No, I'm not goin to dance!
             <<set $opinionPig = $opinionPig - 1 >>
-            <<jump Choosing_not_to_dance>>
+                <<jump Choosing_not_to_dance>>
          -> Player: I'll give it a shot.
+            <<set $opinionPig =  $opinionPig + 1 >>
+
        
 ===
 title: Choosing_to_dance
 position: -116,-131
 ---
-Pig: Oh, Excellent! You dance very well, you are indeed worthy of the curing mud
+<<if $opinionPig >= 1 >>
+    Pig: Oh, Excellent! You dance very well, you are indeed worthy of the curing mud
 
-Player: Really?
+    Player: Really?
 
-Pig: Indeed
+    Pig: Indeed
 
-Player: Thank you! I have to go, but thank you!
+    Player: Thank you! I have to go, but thank you!
 
-Pig: Happy to help! Come back anytime and we'll have a real Shimmy Sham!
-
+    Pig: Happy to help! Come back anytime and we'll have a real Shimmy Sham!
+<<endif>>
 ===
+
 title: Choosing_not_to_dance
 position: -361,-126
 ---
@@ -61,17 +66,18 @@ Pig: Are you sure? It's Really fun
 title: Returning_with_the_Apple
 position: -238,83
 ---
-Player: here you are Pig, a nice tasty apple
+<<if $opinionPig <= 0>>
+    Player: here you are Pig, a nice tasty apple
 
-Pig: Thank you, for bringing me the delicious, you have proved you are worthy of the curing mud
+    Pig: Thank you, for bringing me the delicious, you have proved you are worthy of the curing mud
 
-Player: Wait really?
+    Player: Wait really?
 
-Pig: Yes, you have earned it
+    Pig: Yes, you have earned it
 
-Player: Thank you! I need to go, see you later Pig
+    Player: Thank you! I need to go, see you later Pig
 
-Player: Don't be a stranger
-
+    Player: Don't be a stranger
+<<endif>>
 
 ===
