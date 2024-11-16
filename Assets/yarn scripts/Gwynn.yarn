@@ -12,6 +12,8 @@ Gwynn:Halt who goes there
                 Gwynn: Ah an honorable person I agree to your terms.
                 ->Player:So can I have the sap?
                     Gwynn: Oh yes of course here you are
-                    Narrator: Sir Gwynn hands the player a jar of amber liquid.
-                    Gwynn: Enjoy! I’ll look forward to our duel!
+                        Narrator: Sir Gwynn hands the player a jar of amber liquid.
+                        Gwynn: Enjoy! I’ll look forward to our duel!
+                            <<declare $opinionGwynn = 0 as number>>
+                                <<set $opinionGwynn = $opinionGwynn + 5>>
 ===
