@@ -1,7 +1,8 @@
 ﻿title: Mort2
 tags:
 ---
-<<if $opinionGwynn <= 0>>
+<<declare $opinionMort = 0 as number>>
+<<if $opinionMort <= 0>>
 ->Player: Hey Mort how are things going
     Mort:Oh you know could be better
         ->Player:Oh why’s that
@@ -10,6 +11,7 @@ tags:
                 Mort:Normally I get it from Tart but I haven’t seen him in a long time. I think he’s gone to his cabin
                 ->Player:If you’d like i can go talk to Tart see if he has any
                     Mort:Oh please would you that would be great
+                    <<set $opinionMort = $opinionMort + 5>>
 <<endif>>
 <<if $opinionGwynn >= 5>>
 Mort:Oh! I see you have my sap. I appreciate it. Where'd you get it?
