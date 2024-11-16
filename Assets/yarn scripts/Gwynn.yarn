@@ -1,5 +1,17 @@
 ﻿title: Gwynn
 tags:
 ---
-
+Gwynn:Halt who goes there
+->Player:Um it’s me I’m looking for sir Gwynn?
+    Gwynn: It is I the greatest knight in the land
+    ->Player: alright then do you have the tree sap Tart sent me over.
+        Gwynn: Ah yes of course I do however you must defeat me in combat in order to be worthy
+        ->Player:Combat? Why don’t we fight next time I get some?
+            Gwynn:Hm intriguing if you are frightened of my magnificent strength please leave.
+            ->Player:No that’s not it I’m giving you time to prepare for it it’s only fair that we each train before we fight each other.
+                Gwynn: Ah an honorable person I agree to your terms.
+                ->Player:So can I have the sap?
+                    Gwynn: Oh yes of course here you are
+                    Narrator: Sir Gwynn hands the player a jar of amber liquid.
+                    Gwynn: Enjoy! I’ll look forward to our duel!
 ===

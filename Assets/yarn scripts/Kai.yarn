@@ -1,5 +1,42 @@
 ﻿title: Kai
 tags:
+position: -34,-156
 ---
-
+Kai:Hey who are you
+->Player:um Tart sent me said you had some sap he gets
+    Kai:Oh Tart sent you? Must mean you’re good people then you said you need sap?
+    ->Player:Yea our town doctor needs some
+        Kai:Well yea I have some but you’ll need to answer my riddle first.
+        ->Player: alright let me have it
+            <<jump alright>>
+        ->Player: I don’t have time to answer your riddle doc needs it
+            <<jump time>>
+===
+title: alright
+tags:
+position: -268,15
+---
+Kai:What goes on four feet in the morning two feet in the midday and three in the evening.
+->Player:Wait I’ve heard this one before
+    Kai:No you haven't, it's never been said before.
+    ->Player:No I’m pretty sure isn’t it a person?
+        Kai: Wow I’m impressed you actually got that never heard before riddle
+        ->Player:Yea… of course I did
+        Kai:Alright I’ll give it to you
+            <<jump final>>
+===
+title: time
+tags:
+position: 183,56
+---
+Kai: Oh Alright just take it then
+    <<jump final>>
+===
+title: final
+tags:
+position: 4,239
+---
+Narrator:Kai Hands a jar of an amber liquid to you
+->Player:Thanks I appreciate it.
+    Kai:yea no problem hope doc makes good use of it.
 ===
