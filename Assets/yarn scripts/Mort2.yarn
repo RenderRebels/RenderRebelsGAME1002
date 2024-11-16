@@ -1,6 +1,7 @@
 ﻿title: Mort2
 tags:
 ---
+<<if $opinionGwynn <= 0>>
 ->Player: Hey Mort how are things going
     Mort:Oh you know could be better
         ->Player:Oh why’s that
@@ -9,5 +10,21 @@ tags:
                 Mort:Normally I get it from Tart but I haven’t seen him in a long time. I think he’s gone to his cabin
                 ->Player:If you’d like i can go talk to Tart see if he has any
                     Mort:Oh please would you that would be great
-
+<<endif>>
+<<if $opinionGwynn >= 5>>
+Mort:Oh! I see you have my sap. I appreciate it. Where'd you get it?
+    ->Player:I had to fight sir Gwynn for it
+        Mort:oh my god are you ok
+        ->Player:Yeah, I convinced him we’ll fight next time.
+            Mort: oh Gwynn so naive… anyway im glad you got it I can start that salve now.
+            ->Player: I'm glad doc good luck
+<<endif>>
+<<if $opinionKai >= 5>>
+Mort:Oh! I see you have my sap. I appreciate it. Where'd you get it?
+    ->Player:I had to solve a samurai’s riddle for it
+        Mort: oh you mean Kai?
+        ->Player:Yeah, I solved the riddle.
+            Mort: oh Kai he probably used the same riddle too… anyway i'm glad you got it I can start that salve now.
+            ->Player: I'm glad doc good luck
+<<endif>>
 ===
