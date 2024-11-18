@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      large_headstone_0: -688944268818861080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
