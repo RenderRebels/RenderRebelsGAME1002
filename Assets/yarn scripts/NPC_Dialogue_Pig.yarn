@@ -51,6 +51,7 @@ title: Choosing_not_to_dance
 position: -361,-126
 ---
 <<declare $hasapple = false >>
+
     Pig: Are you sure? It's Really fun
         -> Player: I'm sure
         Pig: Very well, I understand. For what it's worth, I think you'd be a great Shimmy Shammer
@@ -64,11 +65,13 @@ position: -361,-126
             Pig: Thank you and, good Luck my friend
 ===
 
-title: In_between
-position: -380,47
+title: No_Apple
+position: -230,-308
 ---
-<<if $opinionPig <= 0>>
-<<if $hasapple == false>>
+<<if $opinionPig <= -1>>
+<<if $hasapple == true>>
+<<jump Returning_with_the_Apple>>
+<<else>>
     Pig: Hey, do you have my apple yet.
 
     Player: sorry not yet.
@@ -78,12 +81,9 @@ position: -380,47
 <<endif>>
 ===
 
-
 title: Returning_with_the_Apple
 position: -121,42
 ---
-<<if $opinionPig <= 0>>
-<<if $hasapple == true>>
     Player: here you are Pig, a nice tasty apple
 
     Pig: Thank you, for bringing me the delicious, you have proved you are worthy of the curing mud
@@ -95,6 +95,5 @@ position: -121,42
     Player: Thank you! I need to go, see you later Pig
 
     Player: Don't be a stranger
-<<endif>>
-<<endif>>
+
 ===
