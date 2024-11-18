@@ -1,0 +1,13 @@
+﻿title: Map
+tags:
+---
+<<if $Opinon < 1>>
+You can't pick this up yet
+<<endif>>
+<<if $Opinon > 1>>
+*You picked up the map*
+<<set $Opinon = 5>>
+<<endif>>
+<<declare $Opinon = 0 as number>>
+
+===

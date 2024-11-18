@@ -2,17 +2,30 @@ title: Buttar_Bee_Dialogue
 tags:
 position: 16,-48
 ---
+
+<<if $Opinon < 1>>
 Narrarator:By Devon Guillemette
 Player:Hello ButtarBee, I was told by a friend of mine to come visit you for answers because our town is infected by this dinosaur infection and we don't know a cure but I was told you may know one
 Buttarbee:So, your looking for answers to cure a infection that's turning everyone into dinos?
 
 Player:Yeah there's only one human left in Alpin everyone else has been infected...
 
-Buttarbee:Uhhh..Well maybe go take a visit to that pig at mud pits, I heard his mud has healing elements that can heal anything.
-->Take the adventure to the Mud Flat
+
+ButtarBee:I can possibly help you... I don't qui
+->Of course!te remeber the layout of this place maybe if you can find me a map of some sort in Alpin try looking near the last human in Alpin I'm sure you can find a map somewhere over there.
+<<set $Opinon= 2 >>
+<<endif>>
+<<if $Opinon < 3 >>
+ButtarBee:Come back when you have the map
+<<endif>>
+
+<<if $Opinon > 3>>
+Buttarbee:Oh! you got the map, hmmmm.. I think the pig may have something to help you.
+->Go to see the pig
     <<jump GL>>
 ->Question Buttarbee about the mud and it's healing abilities
     <<jump Q>>
+<<endif>>
 ===
 title: Q
 position: 124,185
@@ -21,6 +34,7 @@ Player:How does the mud heal anything and everything?
 
 Buttarbee:Im not sure how that's just what I've been told.
 ->Take the adventure to the Mud Flat
+
 ===
 title: GL
 position: -91,184

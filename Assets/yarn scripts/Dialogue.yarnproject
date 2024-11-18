@@ -14,7 +14,7 @@
     "Peng_Script.yarn",
     "Mort2.yarn",
     "Tart2.yarn",
-    "**/*.yarn"
+    "Map.yarn"
   ],
   "excludeFiles": [
     "**/*~/*"
