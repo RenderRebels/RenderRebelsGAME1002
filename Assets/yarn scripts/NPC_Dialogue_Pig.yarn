@@ -10,9 +10,9 @@ Narrarator:By Damien Buckley
 
 Player: Hey, Mr. Pig!
      -> Enjoying the mud?
-     Pig: Oh, hello there, why yes, yes I am
+        Pig: Oh, hello there, why yes, yes I am
      -> I need your help!
-     Pig: Help? oh of course
+        Pig: Help? oh of course
 Pig: What brings you to these parts my friend?
     -> Player: The cats in Dusted Pyramids told me you hjad mud that could help me, they said it can cure anything.
         Pig: I Do have such mud, but i don't give it away for free, you must prove yourself worthy first
@@ -35,7 +35,6 @@ Pig: What brings you to these parts my friend?
 title: Choosing_to_dance
 position: -116,-131
 ---
-
     Pig: Oh, Excellent! You dance very well, you are indeed worthy of the curing mud
 
     Player: Really?
@@ -51,24 +50,40 @@ position: -116,-131
 title: Choosing_not_to_dance
 position: -361,-126
 ---
-Pig: Are you sure? It's Really fun
-    -> Player: alright, fine i guess I'll do it
-    -> Player: I'm sure
-    Pig: Very well, I understand. For what it's worth, I think you'd be a great Shimmy Shammer
+<<declare $hasapple = false >>
+    Pig: Are you sure? It's Really fun
+        -> Player: I'm sure
+        Pig: Very well, I understand. For what it's worth, I think you'd be a great Shimmy Shammer
     
-    Player: Thanks, I think
+        Player: Thanks, I think
      
-    Pig: I do have something else you can do for me, could you go get me and apple from Aplin Town, it's close to Lunch, but I don't know if I can make it in time.
-        -> Player: That I can do
-        Player: Don't' worry Mr. Pig, I'll get you your lunch
+        Pig: I do have something else you can do for me, could you go get me and apple from Aplin Town, it's close to Lunch, but I don't know if I can make it in time.
+            -> Player: That I can do
+            Player: Don't' worry Mr. Pig, I'll get you your lunch
         
-        Pig: Thank you and, good Luck my friend
-
+            Pig: Thank you and, good Luck my friend
 ===
-title: Returning_with_the_Apple
-position: -238,83
+
+title: In_between
+position: -380,47
 ---
 <<if $opinionPig <= 0>>
+<<if $hasapple == false>>
+    Pig: Hey, do you have my apple yet.
+
+    Player: sorry not yet.
+
+    Pig: well hop to it, its not like my mud is going anywhere.
+<<endif>>
+<<endif>>
+===
+
+
+title: Returning_with_the_Apple
+position: -121,42
+---
+<<if $opinionPig <= 0>>
+<<if $hasapple == true>>
     Player: here you are Pig, a nice tasty apple
 
     Pig: Thank you, for bringing me the delicious, you have proved you are worthy of the curing mud
@@ -81,5 +96,5 @@ position: -238,83
 
     Player: Don't be a stranger
 <<endif>>
-
+<<endif>>
 ===
