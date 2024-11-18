@@ -3,7 +3,9 @@ tags:
 position: -230,-308
 ---
 <<declare $opinionPig = 0>>
-
+<<if $opinionPig >= 1>>
+<<jump Choosing_to_dance>>
+<<else>>
 Narrarator:By Damien Buckley
 
 Player: Hey, Mr. Pig!
@@ -28,12 +30,12 @@ Pig: What brings you to these parts my friend?
          -> Player: I'll give it a shot.
             <<set $opinionPig =  $opinionPig + 1 >>
 
-       
+<<endif>>    
 ===
 title: Choosing_to_dance
 position: -116,-131
 ---
-<<if $opinionPig >= 1 >>
+
     Pig: Oh, Excellent! You dance very well, you are indeed worthy of the curing mud
 
     Player: Really?
@@ -43,7 +45,7 @@ position: -116,-131
     Player: Thank you! I have to go, but thank you!
 
     Pig: Happy to help! Come back anytime and we'll have a real Shimmy Sham!
-<<endif>>
+
 ===
 
 title: Choosing_not_to_dance

@@ -1,0 +1,8 @@
+﻿title: Apple_int
+tags:
+---
+ <<declare $hasapple = false>>
+ <<set $hasapple = true>>
+
+ You found an apple for the Pig
+===
