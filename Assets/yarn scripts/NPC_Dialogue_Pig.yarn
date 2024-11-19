@@ -69,9 +69,7 @@ title: No_Apple
 position: -230,-308
 ---
 <<if $opinionPig <= -1>>
-<<if $hasapple == true>>
-<<jump Returning_with_the_Apple>>
-<<else>>
+<<if $hasapple == false>>
     Pig: Hey, do you have my apple yet.
 
     Player: sorry not yet.
@@ -84,6 +82,8 @@ position: -230,-308
 title: Returning_with_the_Apple
 position: -121,42
 ---
+<<if $opinionPig <= -1>>
+<<if $hasapple == true>>
     Player: here you are Pig, a nice tasty apple
 
     Pig: Thank you, for bringing me the delicious, you have proved you are worthy of the curing mud
@@ -95,5 +95,6 @@ position: -121,42
     Player: Thank you! I need to go, see you later Pig
 
     Player: Don't be a stranger
-
+<<endif>>
+<<endif>>
 ===
