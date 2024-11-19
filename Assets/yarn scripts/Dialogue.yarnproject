@@ -14,7 +14,8 @@
     "Peng_Script.yarn",
     "Mort2.yarn",
     "Tart2.yarn",
-    "Map.yarn"
+    "Map.yarn",
+    "Appleinteraction.yarn"
   ],
   "excludeFiles": [
     "**/*~/*"

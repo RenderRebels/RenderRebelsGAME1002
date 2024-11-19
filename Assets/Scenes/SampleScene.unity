@@ -2240,6 +2240,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Size.x
+      value: 1.5088015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4013648
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Offset.x
+      value: 2.7574282
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Offset.y
+      value: -5.6437044
+      objectReference: {fileID: 0}
     - target: {fileID: 9067200526810280169, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.23
@@ -3274,7 +3290,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.11875582, y: 0}
+  m_Offset: {x: -0.008587003, y: -0.031476974}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3284,7 +3300,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.86251163, y: 0.62375}
+  m_Size: {x: 0.61069703, y: 0.6552267}
   m_EdgeRadius: 0
 --- !u!1001 &1362243116
 PrefabInstance:
@@ -5195,6 +5211,22 @@ PrefabInstance:
     - target: {fileID: 7683295909758782542, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_Name
       value: DialogueTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Size.x
+      value: 2.982407
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2226772
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Offset.x
+      value: -2.564699
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689435399754182117, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: m_Offset.y
+      value: -6.151351
       objectReference: {fileID: 0}
     - target: {fileID: 9067200526810280169, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_AnchoredPosition.x
