@@ -2,8 +2,10 @@
 tags:
 position: -230,-308
 ---
+<<declare $hasmud = false>>
 <<declare $opinionPig = 0>>
-<<if $opinionPig >= 1>>
+<<declare $dance = false>>
+<<if $opinionPig >= 1 && $dance == true>>
 <<jump Choosing_to_dance>>
 <<elseif $opinionPig <= -1 && $hasapple == false>>
 <<jump No_Apple>>
@@ -19,7 +21,7 @@ Player: Hey, Mr. Pig!
         Pig: Help? oh of course
 Pig: What brings you to these parts my friend?
     -> Player: The cats in Dusted Pyramids told me you hjad mud that could help me, they said it can cure anything.
-        Pig: I Do have such mud, but i don't give it away for free, you must prove yourself worthy first
+        Pig: I do have such mud, but i don't give it away for free, you must prove yourself worthy first
 
         Player: Worthy? how?
 
@@ -33,6 +35,7 @@ Pig: What brings you to these parts my friend?
                 <<jump Choosing_not_to_dance>>
          -> Player: I'll give it a shot.
             <<set $opinionPig =  $opinionPig + 1 >>
+            Pig: Great! just head over to the mud pit and do your best shimmy!
 
 <<endif>>      
 ===
@@ -48,6 +51,7 @@ Pig: Indeed
 Player: Thank you! I have to go, but thank you!
 
 Pig: Happy to help! Come back anytime and we'll have a real Shimmy Sham!
+<<set $hasmud = true>>
 ===
 
 title: Choosing_not_to_dance
@@ -91,4 +95,5 @@ Pig: Yes, you have earned it
 Player: Thank you! I need to go, see you later Pig
 
 Player: Don't be a stranger
+<<set $hasmud = true>>
 ===

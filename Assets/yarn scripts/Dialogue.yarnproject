@@ -15,7 +15,8 @@
     "Mort2.yarn",
     "Tart2.yarn",
     "Map.yarn",
-    "Appleinteraction.yarn"
+    "Appleinteraction.yarn",
+    "Dance.yarn"
   ],
   "excludeFiles": [
     "**/*~/*"
