@@ -39,4 +39,5 @@ Knight:I got it.
 
 Knight: Wonderful as promised I will tell you what you want. There is a healing pool deep in the forest.I wish you luck friend.
 
+<<declare $hasgrave = false >>
 ===
