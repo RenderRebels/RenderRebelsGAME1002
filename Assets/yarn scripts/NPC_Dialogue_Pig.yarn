@@ -5,6 +5,10 @@ position: -230,-308
 <<declare $opinionPig = 0>>
 <<if $opinionPig >= 1>>
 <<jump Choosing_to_dance>>
+<<elseif $opinionPig <= -1 && $hasapple == false>>
+<<jump No_Apple>>
+<<elseif $opinionPig <= -1 && $hasapple == true>>
+<<jump Returning_with_the_Apple>>
 <<else>>
 Narrarator:By Damien Buckley
 
@@ -30,71 +34,61 @@ Pig: What brings you to these parts my friend?
          -> Player: I'll give it a shot.
             <<set $opinionPig =  $opinionPig + 1 >>
 
-<<endif>>    
+<<endif>>      
 ===
 title: Choosing_to_dance
 position: -116,-131
----
-    Pig: Oh, Excellent! You dance very well, you are indeed worthy of the curing mud
+---   
+Pig: Oh, Excellent! You dance very well, you are indeed worthy of the curing mud
 
-    Player: Really?
+Player: Really?
 
-    Pig: Indeed
+Pig: Indeed
 
-    Player: Thank you! I have to go, but thank you!
+Player: Thank you! I have to go, but thank you!
 
-    Pig: Happy to help! Come back anytime and we'll have a real Shimmy Sham!
-
+Pig: Happy to help! Come back anytime and we'll have a real Shimmy Sham!
 ===
 
 title: Choosing_not_to_dance
 position: -361,-126
 ---
 <<declare $hasapple = false >>
-
-    Pig: Are you sure? It's Really fun
-        -> Player: I'm sure
-        Pig: Very well, I understand. For what it's worth, I think you'd be a great Shimmy Shammer
+Pig: Are you sure? It's Really fun
+    -> Player: I'm sure
+    Pig: Very well, I understand. For what it's worth, I think you'd be a great Shimmy Shammer
     
-        Player: Thanks, I think
+    Player: Thanks, I think
      
-        Pig: I do have something else you can do for me, could you go get me and apple from Aplin Town, it's close to Lunch, but I don't know if I can make it in time.
-            -> Player: That I can do
-            Player: Don't' worry Mr. Pig, I'll get you your lunch
+    Pig: I do have something else you can do for me, could you go get me and apple from Aplin Town, it's close to Lunch, but I don't know if I can make it in time.
+        -> Player: That I can do
+        Player: Don't' worry Mr. Pig, I'll get you your lunch
         
-            Pig: Thank you and, good Luck my friend
+        Pig: Thank you and, good Luck my friend
 ===
 
 title: No_Apple
 position: -230,-308
 ---
-<<if $opinionPig <= -1>>
-<<if $hasapple == false>>
-    Pig: Hey, do you have my apple yet.
+Pig: Hey, do you have my apple yet.
 
-    Player: sorry not yet.
+Player: sorry not yet.
 
-    Pig: well hop to it, its not like my mud is going anywhere.
-<<endif>>
-<<endif>>
+Pig: well hop to it, its not like my mud is going anywhere.
 ===
 
 title: Returning_with_the_Apple
 position: -121,42
 ---
-<<if $opinionPig <= -1>>
-<<if $hasapple == true>>
-    Player: here you are Pig, a nice tasty apple
+Player: here you are Pig, a nice tasty apple
 
-    Pig: Thank you, for bringing me the delicious, you have proved you are worthy of the curing mud
+Pig: Thank you, for bringing me the delicious, you have proved you are worthy of the curing mud
 
-    Player: Wait really?
+Player: Wait really?
 
-    Pig: Yes, you have earned it
+Pig: Yes, you have earned it
 
-    Player: Thank you! I need to go, see you later Pig
+Player: Thank you! I need to go, see you later Pig
 
-    Player: Don't be a stranger
-<<endif>>
-<<endif>>
+Player: Don't be a stranger
 ===
