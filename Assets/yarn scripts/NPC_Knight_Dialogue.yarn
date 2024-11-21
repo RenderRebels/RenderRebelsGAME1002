@@ -1,6 +1,9 @@
 title: NPC_Knight_Dialogue
 tags:
+position: -167,-207
 ---
+<<declare $opinionKnight = 0 as number>>
+<<if $opinionKnight <= 0>>
 Narrator:By Gage Breedon
 Player: Hey, Sir Knight!
     -> Why are you here?
@@ -17,27 +20,37 @@ Player: Hey, Sir Knight!
          <<jump The_Mission>>
         -> Player: What do you need?
          <<jump About_the_deal>>
+
+<<elseif $hasgrave == true>>
+<<jump got_it>>
+<<endif>>
 ===
+
+
 title: About_the_deal
 ---
 Player: Why?
 
-Pig: This is the grave of an old friend and until it is fixed he won't be able to rest
+Knight: This is the grave of an old friend and until it is fixed he won't be able to rest
 
 Player: I guess I have no choice.
     <<jump The_Mission>>
 ===
 title: The_Mission
+position: -279,115
 ---
 Knight: You need to find the missing piece of the grave
 
 Player: Why don't you get it?
 
 Knight: Your dino hands can handle the power mine would be destroyed.
+    <<set $opinionKnight = $opinionKnight + 1>>
+    <<declare $hasgrave = false >>
+===
 
-Knight:I got it.
-
-Knight: Wonderful as promised I will tell you what you want. There is a healing pool deep in the forest.I wish you luck friend.
-
-<<declare $hasgrave = false >>
+title:got_it
+position: 118,237
+---
+->Player:I got it.
+    Knight: Wonderful as promised I will tell you what you want. There is a healing pool deep in the forest.I wish you luck friend.
 ===

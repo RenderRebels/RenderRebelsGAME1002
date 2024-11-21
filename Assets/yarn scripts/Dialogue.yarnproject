@@ -23,10 +23,6 @@
     "Sticks-Chonkee.yarn",
     "Gwynn.yarn",
     "**/*.yarn",
-    "**/*.yarn",
-    "**/*.yarn",
-    "**/*.yarn",
-    "**/*.yarn",
     "Ghost_script.yarn"
   ],
   "excludeFiles": [
