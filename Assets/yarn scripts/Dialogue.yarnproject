@@ -20,7 +20,13 @@
     "Grave piece interation.yarn",
     "Grass-Chonkee.yarn",
     "Mud-Chonkee.yarn",
-    "Sticks-Chonkee.yarn"
+    "Sticks-Chonkee.yarn",
+    "Gwynn.yarn",
+    "**/*.yarn",
+    "**/*.yarn",
+    "**/*.yarn",
+    "**/*.yarn",
+    "**/*.yarn"
   ],
   "excludeFiles": [
     "**/*~/*"
