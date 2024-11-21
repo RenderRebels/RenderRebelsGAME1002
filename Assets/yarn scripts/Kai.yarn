@@ -1,11 +1,7 @@
-﻿title: Kai
+title: Kai
 tags:
 position: -34,-156
 ---
-<<if $opinionTart <= 0>>
-Kai:Please Leave me alone. I'm training.
-<<endif>>
-<<if $opinionTart >= 5>>
 Kai:Hey who are you
 ->Player:um Tart sent me said you had some sap he gets
     Kai:Oh Tart sent you? Must mean you’re good people then you said you need sap?
@@ -15,7 +11,6 @@ Kai:Hey who are you
             <<jump alright>>
         ->Player: I don’t have time to answer your riddle doc needs it
             <<jump time>>
-<<endif>>
 ===
 title: alright
 tags:

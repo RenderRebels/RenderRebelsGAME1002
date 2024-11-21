@@ -1,6 +1,7 @@
-﻿title: Tart2
+title: Tart2
 tags:
 ---
+ <<declare $opinionTart = 0 as number>>
 Tart:Oh who’s out there
 ->Player:Just me Tart you have a minute?
     Tart:Oh yea I do, how's it going friend?
@@ -45,11 +46,13 @@ Tart: Yea the Everforest is just North of here talk to Sir Gwynn, can’t miss h
     Tart:Yea he thinks he’s a knight just play along and he’ll give you some also he’ll likely try to fight you. Just tell him you will next time.
     ->Player:But then won’t I need to fight him next time?
         Tart:No he’s not that smart he’ll forget by then
-        ->Player:Ok if you say so
+        ->Player:Ok if you say so 
+                <<set $opinionTart = $opinionTart +5>>
 ===
 title:shadowsedgetart
 tags:
 ---
 Tart:No it isn’t that bad it’s just south-west of here when you get there you should meet with Kai he’s always had some when I needed it.
 ->Player:Thanks Tart I appreciate it
+    <<set $opinionTart = $opinionTart +5>>
 ===
