@@ -1,5 +1,7 @@
 ﻿title: Grass-Chonkee
 tags:
 ---
+<<declare $opinionSalad = 0 as number>>
 Narrator: You collected grass!
+    <<set $opinionSalad = $opinionSalad + 1>>
 ===

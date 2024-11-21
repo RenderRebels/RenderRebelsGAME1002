@@ -2,4 +2,5 @@
 tags:
 ---
 Narrator: You collected sticks!
+    <<set $opinionSalad = $opinionSalad + 1>>
 ===

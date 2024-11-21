@@ -1,6 +1,8 @@
 ﻿title: Chonkee
 tags:
 ---
+<<declare $opinionChonkee = 0 as number>>
+<<if $opinionChonkee <= 0>>
 Narrarator:By Ben Richard
 Chonkee: Grumble.. grumble.. 
      -> Is there somthing wrong?
@@ -14,6 +16,14 @@ Chonkee: Grumble.. grumble..
                     -> Yessir...
                         Chonkee: Here's the bowl..
                         Narrarator: You gained the bowl!
-    
+                            <<set $opinionChonkee = $opinionSalad + 1>>
+<<endif>>
+<<if $opinionSalad >= 3>>
+Chonkee: Grr.. finally..
+    ->...
+        Chonkee: What..?!
+            -> What do we say..?
+                Chonkee: grmpf... thank you.. Now get lost!
+<<endif>>
         
 ===
