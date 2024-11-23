@@ -1,0 +1,6 @@
+﻿title: Airpod
+tags:
+---
+Narrarator:You picked up the airpod!
+    <<set $hasairpod = true>>
+===

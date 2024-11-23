@@ -23,7 +23,8 @@
     "Sticks-Chonkee.yarn",
     "Gwynn.yarn",
     "**/*.yarn",
-    "Ghost_script.yarn"
+    "Ghost_script.yarn",
+    "Airpod.yarn"
   ],
   "excludeFiles": [
     "**/*~/*"

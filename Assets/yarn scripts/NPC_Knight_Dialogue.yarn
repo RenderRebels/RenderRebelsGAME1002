@@ -17,7 +17,7 @@ Player: Hey, Sir Knight!
         Knight: Sigh...tell you what if you help me I will anwser your questions.  
     Knight: So do we have a deal?
         -> Player: Deal!
-         <<jump The_Mission>>
+         <<jump The_Knights_Mission>>
         -> Player: What do you need?
          <<jump About_the_deal>>
 
@@ -34,9 +34,9 @@ Player: Why?
 Knight: This is the grave of an old friend and until it is fixed he won't be able to rest
 
 Player: I guess I have no choice.
-    <<jump The_Mission>>
+    <<jump The_Knights_Mission>>
 ===
-title: The_Mission
+title: The_Knights_Mission
 position: -279,115
 ---
 Knight: You need to find the missing piece of the grave
