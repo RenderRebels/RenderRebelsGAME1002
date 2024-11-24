@@ -8,11 +8,11 @@ Narrarator:By Devon Guillemette
 Player:Hello ButtarBee, I was told by a friend of mine to come visit you for answers because our town is infected by this dinosaur infection and we don't know a cure but I was told you may know one
 Buttarbee:So, your looking for answers to cure a infection that's turning everyone into dinos?
 
-Player:Yeah there's only one human left in Alpin everyone else has been infected...
+Player:Yeah there's only one human left in Aplin everyone else has been infected...
 
 
-ButtarBee:I can possibly help you... I don't qui
-->Of course!te remeber the layout of this place maybe if you can find me a map of some sort in Alpin try looking near the last human in Alpin I'm sure you can find a map somewhere over there.
+ButtarBee:I can possibly help you... I don't quite remember the layout of this place maybe if you can find me a map of some sort in Alpin try looking near the last human in Aplin I'm sure you can find a map somewhere over there.
+->Of course!
 <<set $Opinon= 2 >>
 <<endif>>
 <<if $Opinon < 3 >>

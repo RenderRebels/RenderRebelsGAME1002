@@ -3,7 +3,7 @@ tags:
 ---
 Narrarator:By Devon Guillemette
 Dusty:Hello traveller what brings you to these parts?
-->I'm in need of a cure Alpin has been infected with a dinosaur sickness
+->I'm in need of a cure Aplin has been infected with a dinosaur sickness
  <<jump sup1>>
 ->Nothing just travelling around
  <<jump frwell>>
@@ -17,5 +17,5 @@ Dusty:Oh! Talk to Buttarbee, he would be the one to know how to fix that
 title: frwell
 position: 158,198
 ---
-Dusty: Oh ok have fun hope you enjoy thhe pyramids.
+Dusty: Oh ok have fun hope you enjoy the pyramids.
 ===

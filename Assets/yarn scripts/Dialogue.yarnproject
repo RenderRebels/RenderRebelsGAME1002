@@ -24,7 +24,8 @@
     "Gwynn.yarn",
     "**/*.yarn",
     "Ghost_script.yarn",
-    "Airpod.yarn"
+    "Airpod.yarn",
+    "YarnTextCommands.cs"
   ],
   "excludeFiles": [
     "**/*~/*"
