@@ -12,7 +12,7 @@ position: -230,-308
 <<elseif $opinionPig <= -1 && $hasapple == true>>
 <<jump Returning_with_the_Apple>>
 <<else>>
-Narrarator:By Damien Buckley
+Narrarator:Dancing for Mud By Damien Buckley
 
 Player: Hey, Mr. Pig!
      -> Enjoying the mud?
@@ -20,7 +20,7 @@ Player: Hey, Mr. Pig!
      -> I need your help!
         Pig: Help? oh of course
 Pig: What brings you to these parts my friend?
-    -> Player: The cats in Dusted Pyramids told me you hjad mud that could help me, they said it can cure anything.
+    -> Player: The cats in Dusted Pyramids told me you had mud that could help me, they said it can cure anything.
         Pig: I do have such mud, but i don't give it away for free, you must prove yourself worthy first
 
         Player: Worthy? how?

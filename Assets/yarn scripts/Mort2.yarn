@@ -1,8 +1,9 @@
-﻿title: Mort2
+title: Mort2
 tags:
 ---
 <<declare $opinionMort = 0 as number>>
 <<if $opinionMort <= 0>>
+Narrator: Sappy Serum by Michael Barry
 ->Player: Hey Mort how are things going
     Mort:Oh you know could be better
         ->Player:Oh why’s that

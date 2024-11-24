@@ -1217,7 +1217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &261371580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4054,6 +4054,10 @@ PrefabInstance:
     - target: {fileID: 1069986987565348674, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173086490288255485, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
+      propertyPath: startNode
+      value: Wolfy_Script1
       objectReference: {fileID: 0}
     - target: {fileID: 7683295909758782542, guid: e6ab67aba96b26042b1f13e0924b0244, type: 3}
       propertyPath: m_Name
